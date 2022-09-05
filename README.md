@@ -6,9 +6,11 @@ sudo pacman -S docker
 ``
 
 ### After Installation
-> sudo systemctl start docker.service
-> sudo systemctl enable docker.service
-
+1. If service is not Running , Then Do this 
+```
+sudo systemctl start docker.service
+sudo systemctl enable docker.service
+```
 ##### For Checking Run :
 > sudo docker run hello-world 
 
