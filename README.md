@@ -6,9 +6,9 @@
 sudo apt install docker.io
 ```
 ### For Arch 
-``
+```
 sudo pacman -S docker
-``
+```
 
 ### After Installation
 1. If service is not Running , Then Do this 
