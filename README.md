@@ -1,6 +1,11 @@
 # Docker Installation
 
-## For Arch 
+
+### For Ubuntu/Debian
+```
+sudo apt install docker.io
+```
+### For Arch 
 ``
 sudo pacman -S docker
 ``
@@ -16,7 +21,7 @@ sudo systemctl enable docker.service
 sudo docker run hello-world 
 ```
 
-Basic Docker Commands :
+# Basic Docker Commands :
 1. For Searching An image.
 ```bash
 $ docker search image-name  
