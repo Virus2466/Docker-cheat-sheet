@@ -12,9 +12,10 @@ sudo systemctl start docker.service
 sudo systemctl enable docker.service
 ```
 ##### For Checking Run :
-``
+```
 sudo docker run hello-world 
-``
+```
+
 Basic Docker Commands :
 1. For Searching An image.
 ```bash
