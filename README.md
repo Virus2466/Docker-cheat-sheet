@@ -37,7 +37,7 @@ $ docker ps -a
 
 
 ###### Docker Run Flags :
-i) -it :
+`` -it :``
 It Creates an Interactive Shell To work on , So we can run any services in it.
 
 ii) -d :
