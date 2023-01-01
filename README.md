@@ -37,19 +37,19 @@ $ docker ps -a
 
 
 ###### Docker Run Flags :
-`` -it :``
+`` -it ``
 It Creates an Interactive Shell To work on , So we can run any services in it.
 
-ii) -d :
+`` -d ``
 Images run after u exit 
 
-iii) --name :
+`` --name ``
 Specify Your image name 
 
-iv) -p :
+`` -p ``
 Speciy a port (i.e 8080:80)
 
-v) --network :
+``  --network ``
 Specify Your network name if you created one 
 
  
