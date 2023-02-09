@@ -10,6 +10,21 @@ sudo apt install docker.io
 sudo pacman -S docker
 ```
 
+### For Fedora 
+```
+First Set up the repo
+
+sudo dnf -y install dnf-plugins-core
+ sudo dnf config-manager \
+    --add-repo \
+    https://download.docker.com/linux/fedora/docker-ce.repo
+
+And Then
+
+sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+```
+
 ### After Installation
 1. If service is not Running , Then Do this 
 ```
