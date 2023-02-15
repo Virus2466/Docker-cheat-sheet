@@ -11,8 +11,10 @@ sudo pacman -S docker
 ```
 
 ### For Fedora 
-```
+
 First Set up the repo
+
+```
 
 sudo dnf -y install dnf-plugins-core
  sudo dnf config-manager \
